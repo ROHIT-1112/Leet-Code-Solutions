@@ -19,3 +19,9 @@ class Solution:
                     q.append(node.right)
             level+=1
         return level
+    
+    
+# Recursive Solution :- 
+# if not root:
+#   return 0
+# return 1+ (self.maxdepth(root.left),self.maxdepth())
